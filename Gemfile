@@ -8,6 +8,8 @@ gem 'pg'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4"
 
+gem "bootstrap-sass",  "3.4.1"
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
@@ -73,3 +75,5 @@ group :test do
   gem "webdrivers"
 
 end
+
+gem 'rails-controller-testing'

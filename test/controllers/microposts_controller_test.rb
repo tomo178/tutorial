@@ -2,7 +2,7 @@ require "test_helper"
 
 class MicropostsControllerTest < ActionDispatch::IntegrationTest
   test "should get new" do
-    get microposts_new_url
+    get new_micropost_path
     assert_response :success
   end
 end
